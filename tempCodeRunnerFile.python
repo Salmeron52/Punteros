@@ -1,0 +1,11 @@
+base_datos = []
+
+for i in range(3):
+    persona = {}
+    nombre = input('Nombre:\t')
+    edad = input('Edad:\t')
+    persona['nombre'] = nombre
+    persona['edad'] = edad
+    base_datos.append(persona)
+
+print(base_datos)

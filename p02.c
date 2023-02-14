@@ -3,6 +3,8 @@
 void f1(int x, int y);
 void f2(int *, int *);
 
+//Añadimos un comentario para probar GitHub
+
 main()
 {
     int u, v;
